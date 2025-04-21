@@ -10,7 +10,7 @@ body {
     background-image: url('img/banner-bg.jpg'); /* Cambia esta ruta por la de tu imagen */
     background-size: cover; /* Asegura que la imagen cubra todo el espacio */
     background-position: center; /* Centra la imagen */
-    color: white; /* El texto será blanco para resaltar */
+    color: rgb(255, 125, 227); /* El texto será blanco para resaltar */
     text-align: center;
     padding: 100px 20px; /* Espaciado dentro del banner */
 }
