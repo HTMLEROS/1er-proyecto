@@ -34,7 +34,7 @@ body {
 }
 
 .producto {
-    background-color: #f9f9f9;
+    background-color: #fff1f9;
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 30%;
@@ -56,7 +56,7 @@ body {
 
 .precio {
     font-size: 1.2em;
-    color: green;
+    color: rgb(253, 127, 175);
     font-weight: bold;
 }
 
