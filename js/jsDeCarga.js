@@ -21,7 +21,7 @@ function mantenimiento(hora) {
   function aviso(aviso) {
     Swal.fire({
       title: '📣 Aviso',
-      text: `${aviso} -Administración..`,
+      text: `${aviso} -Administración.`,
       icon: 'info',
       confirmButtonText: 'Entendido',
       confirmButtonColor: '#3085d6',
