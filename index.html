@@ -6,8 +6,15 @@
     <title>Delicias htmleritas</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="icon" href="img/logo.png" type="image/png">
+    <!-- INTEGRACIÓN JS (el js PRINCIPAL para avisos y funciones de administración) -->
+    <script src="js/jsDeCarga.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
+    <!-- JS DE INICIALIZACIÓN -->
+     <!-- en el  -->
+    <script>mantenimiento("20:00")</script>
+
     <!-- El BANNER se modifica en el css ( ayuda :c ) -->
     <header class="banner">
         <h1>Delicias htmleritas</h1>
@@ -43,7 +50,7 @@
         <p>&copy; 2025 Delicias htmleritas. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- INTEGRACIÓN JS -->
+    <!-- INTEGRACIÓN JS (este js es el que se carga despues de todo el HTML) -->
     <script src="js/js.js"></script>
 </body>
 </html>
