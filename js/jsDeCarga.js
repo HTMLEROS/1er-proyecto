@@ -13,6 +13,22 @@ function mantenimiento(hora) {
       allowOutsideClick: false
     }).then((result) => {
       if (result.isConfirmed) {
+        window.location.href = "https://htmleros.github.io/inicio";
+      }
+    });
+  }
+
+  function mantenimiento(error) {
+    Swal.fire({
+      title: 'ERROR',
+      text: `La página está fuera de servicio. ERR:${error}.`,
+      icon: 'error',
+      confirmButtonText: 'Salir',
+      confirmButtonColor: '#3085d6',
+      backdrop: true,
+      allowOutsideClick: false
+    }).then((result) => {
+      if (result.isConfirmed) {
         window.location.href = "mantenimiento.html";
       }
     });
