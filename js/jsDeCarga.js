@@ -18,21 +18,21 @@ function mantenimiento(hora) {
     });
   }
 
-  function mantenimiento(error) {
-    Swal.fire({
-      title: 'ERROR',
-      text: `La página está fuera de servicio. ERR:${error}.`,
-      icon: 'error',
-      confirmButtonText: 'Salir',
-      confirmButtonColor: '#3085d6',
-      backdrop: true,
-      allowOutsideClick: false
-    }).then((result) => {
-      if (result.isConfirmed) {
-        window.location.href = "mantenimiento.html";
-      }
-    });
-  }
+function mantenimiento(error) {
+  Swal.fire({
+    title: 'ERROR',
+    text: `La página está fuera de servicio. ERR:${error}.`,
+    icon: 'error',
+    confirmButtonText: 'Salir',
+    confirmButtonColor: '#3085d6',
+    backdrop: true,
+    allowOutsideClick: false
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.href = "mantenimiento.html";
+    }
+  });
+}
 
   function aviso(aviso) {
     Swal.fire({
