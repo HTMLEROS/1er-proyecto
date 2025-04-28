@@ -15,13 +15,13 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #7e34be;
+    color: #dcbbf8;
     padding: 10px 15px;
-    background-color: #ebd5ff;
+    background-color: #602892;
 }
 
 nav ul li a:hover {
-    background-color: #ffdff1;
+    background-color: #fff1f9;
 }
 
 .banner {
