@@ -11,7 +11,7 @@ nav {
     position: absolute;
     top: 20px;
     left: 20px;
-    z-index: 10; /* Asegura que esté sobre el banner */
+    z-index: 10; /* Asegura que esté encima del banner */
 }
 
 nav ul {
@@ -19,33 +19,39 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Los botones uno debajo del otro */
+    flex-direction: column;
     gap: 10px;
 }
 
 nav ul li a {
+    display: inline-block;
     text-decoration: none;
-    color: white;
-    background-color: rgba(96, 40, 146, 0.9); /* Color similar al banner, más oscuro y con transparencia */
-    padding: 10px 15px;
-    border-radius: 6px;
+    padding: 10px 18px;
+    border-radius: 10px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+
+    background-color: #caa6f2; /* Lila claro armonioso */
+    color: #3d1168; /* Texto oscuro para buen contraste */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #fff1f9;
+    background-color: #fff1f9; /* Rosa claro al pasar el mouse */
     color: #602892;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* === BANNER === */
 .banner {
-    background-image: url('img/banner.png');
+    background-image: url('img/banner.png'); /* Cambiá la ruta si es necesario */
     background-size: cover;
     background-position: center;
     color: rgb(255, 221, 248);
     text-align: center;
-    padding: 120px 10px 80px; /* Más padding arriba por el menú flotante */
+    padding: 120px 10px 80px; /* Padding superior extra por el menú */
     position: relative;
 }
 
